@@ -1,0 +1,133 @@
+body {
+    font-family: 'Martel', serif;
+    color: #e2edff;
+    margin: 0;
+    background-color: #3a3a3a;
+}
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff00ee;
+}
+h3 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+strong {
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+img {
+    margin-right: 10px;
+}
+header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+nav {
+    margin-bottom: 30px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px
+}
+nav a {
+    font-size: 16px;
+    color: #ccced1;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #cae4f9;
+    text-decoration: underline;
+}
+nav a:visited {
+    color: #98a6bc;
+    text-decoration: none;
+}
+a {
+    font-size: 20px;
+    color: #1ed633;
+    text-decoration: none;
+}
+a:hover {
+    color: #a3f7ad;
+    text-decoration: underline;
+}
+a:visited {
+    color: #1e9c2c;
+    text-decoration: none;
+}
+main {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    color: #4f4f4f;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #4f4f4f;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    font-size: 15px;
+    color: #d4faff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #66eeff;
+    text-decoration: underline;
+}
+footer a:visited {
+    color: #4fc2d1;
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cover {
+	text-align: center;
+	margin-bottom: 20px;
+    padding-top: 0px;
+	background-color: #cae4f9;
+	background-image: url(images/splatter2.png);
+    background-position: bottom;
+	background-repeat: repeat;
+	background-size: cover;
+}
+.resume {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    line-height: 1px;
+}
+.portrait {
+    text-align: center;
+}
+.img-left {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
